@@ -24,7 +24,7 @@ iamo_link = ""
 if has_page:
     iamo_link = st.text_input("IAMO Profile Link (e.g., https://www.iamo.de/institut/mitarbeitende/details/svanidze)")
 
-# Generate signature on button click
+# --- Generate signature ---
 if st.button("Generate Signature"):
     # Build IAMO display link and href
     if has_page and iamo_link.strip():
@@ -60,10 +60,15 @@ if st.button("Generate Signature"):
     <p>&nbsp;</p>
     """
 
-    # Show rendered signature
-    st.markdown("### 🖼 Preview")
+    # Show rendered preview only
+    st.markdown("### 🖼 Signature Preview")
     st.markdown(signature_html, unsafe_allow_html=True)
 
-    # Provide a copy-to-clipboard button
-    st.text_area("Signature HTML (Copy below)", signature_html, height=200)
-    st.caption("Use the copy button of your browser/OS to copy the code above.")
+    # Hidden copy button (Streamlit trick using text_area + copy)
+    st.download_button(
+        label="📋 Copy Signature HTML",
+        data=signature_html,
+        file_name="signature.html",
+        mime="text/html"
+    )
+    st.caption("Click 'Copy Signature HTML' to copy or download your signature.")
