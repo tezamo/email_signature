@@ -1,4 +1,3 @@
-# email_signature
 # ✉️ IAMO Email Signature Generator
 
 A signature **App** designed by AAW department in IAMO to generate standardized email signatures for the department staff. The app collects your details (prefix, name, profession, phone extension, and email) and produces a ready-to-use **rendered email signature** with a preview and copy button.
@@ -38,7 +37,10 @@ A signature **App** designed by AAW department in IAMO to generate standardized 
    ```
 4. **Open in your browser**:
    ```bash
-    Visit 
+    Visit   
+            Local URL: http://localhost:8503
+            Network URL: http://10.0.11.5:8503
+            External URL: http://20.61.126.214:8503
     ```
 ---
 ## 📦 Deployment on Streamlit Cloud
