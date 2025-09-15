@@ -66,9 +66,9 @@ if st.button("Generate Signature"):
 
     # Hidden copy button (Streamlit trick using text_area + copy)
     st.download_button(
-        label="📋 Copy Signature HTML",
+        label="📋 Download",
         data=signature_html,
         file_name="signature.html",
         mime="text/html"
     )
-    st.caption("Click 'Copy Signature HTML' to copy or download your signature.")
+    st.caption("Click 'Download' to download your signature.")
