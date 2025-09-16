@@ -43,17 +43,6 @@ A signature **App** designed by AAW department in IAMO to generate standardized 
             External URL: http://20.61.126.214:8503
     ```
 ---
-## 📦 Deployment on Streamlit Cloud
-
-Push your code to a **public GitHub repository**.
-
-Go to [Streamlit Cloud](https://streamlit.io/cloud) and sign in with GitHub.
-
-Click **New app**, choose your repo, branch, and `app.py`.
-
-Deploy! Share the URL provided (e.g., `https://your-username-your-repo-name.streamlit.app`).
-
----
 
 ## 📂 Project Structure
 
