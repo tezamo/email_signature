@@ -1,4 +1,4 @@
-# ✉️ IAMO Email Signature Generator
+# ✉️ Email Signature Generator
 
 A signature **App** designed by AAW department in IAMO to generate standardized email signatures for the department staff. The app collects your details (prefix, name, profession, phone extension, and email) and produces a ready-to-use **rendered email signature** with a preview and copy button.
 
